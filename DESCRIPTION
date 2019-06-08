@@ -1,0 +1,22 @@
+Package: sagadata
+Type: Package
+Title: SAGA Core Data Set
+Version: 0.0.1.9000
+Year: 2019
+Authors@R: c(
+    person("Steven", "Talbot", email = "talbot.steven@mh-hannover.de", role = c("cre","aut"), comment = c(ORCID = "0000-0002-9062-4065") ),
+    person("Adrian", "Schwarzer", email = "schwarzer.adrian@mh-hannover.de", role = "aut" ),
+    person("Rothe", "Michael", email = "rothe.michael@mh-hannover.de", role = "aut" ) )
+Maintainer: Steven R. Talbot <talbot.steven@mh-hannover.de>
+Description: These are the main SAGA or core data for training the most recent model. They are required during the classification process. 
+    So make sure to load them when you're using saga.
+Depends: R (>= 2.10)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+URL: https://github.com/mytalbot/sagadata
+BugReports: https://github.com/mytalbot/sagapackage/issues
